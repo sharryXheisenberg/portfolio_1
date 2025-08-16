@@ -11,13 +11,12 @@ const Projects: React.FC = () => {
 
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
-  // Sample projects - replace with your actual projects
   const projects = [
     {
       id: 1,
       title: "PasteManager",
       description: " A modern React-based application for managing and sharing text snippets with ease. Built with Vite, Tailwind CSS, and Redux Toolkit, this app offers robust functionalities with a better user interface.",
-      image: "public/pastemanager.png",
+      image: "/pastemanager.png",
       liveLink: "https://paste-manager-2.vercel.app/",
       githubLink: "https://github.com/sharryXheisenberg/PasteManager",
       pageSpeedScore: 95,
@@ -29,7 +28,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: "YourDashboard",
       description: "   A modern, responsive admin dashboard built with React, TypeScript, and Tailwind CSS. Features real-time data updates, interactive charts, and a clean, professional design.",
-      image: "public/yourDashboard.png",
+      image: "/yourDashboard.png",
       liveLink: "https://newdashboard-tan.vercel.app/",
       githubLink: "https://github.com/sharryXheisenberg/sales_data_dashboard",
       pageSpeedScore: 92,
@@ -41,7 +40,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: "AppointFlow",
       description: " A modern TypeScript + React-based application for managing and scheduling appointments with ease. Built with Vite, Tailwind CSS, and Redux Toolkit, this app offers robust functionalities with a better user interface.",
-      image: "public/appointFlow.png",
+      image: "/appointFlow.png",
       liveLink: "https://booking-and-calendar-ui-template.vercel.app/",
       githubLink: "https://github.com/sharryXheisenberg/booking_and_calendar_UI_template",
       pageSpeedScore: 88,
@@ -53,7 +52,7 @@ const Projects: React.FC = () => {
       id: 4,
       title: "Task Board ",
       description: "  A modern React-based Task Board Application for efficient collaboration within organizations. Built with Vite, TypeScript and Tailwind CSS this app allows users to organize tasks visually on boards.",
-      image: "public/taskBoard.png",
+      image: "/taskBoard.png",
       liveLink: "https://task-bar-sigma.vercel.app/",
       githubLink: "https://github.com/sharryXheisenberg/task_bar",
       pageSpeedScore: 95,
